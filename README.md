@@ -16,34 +16,18 @@ Bem-vindo ao repositório do **Projeto-Advocacia**! Este projeto foi desenvolvid
 
 ## Sobre o Projeto
 
-O propósito deste projeto é oferecer uma plataforma interativa e acessível para desenvolvedores compartilharem experiências, aprenderem juntos e se conectarem com a comunidade DevClub.
+## Sobre o Projeto
+
+O **Projeto-Advocacia** foi idealizado para atender às necessidades de escritórios de advocacia que buscam uma presença digital moderna e eficiente. Este site responsivo foi projetado para proporcionar uma experiência de navegação intuitiva, permitindo que os usuários encontrem informações sobre os serviços jurídicos de forma rápida e prática. Além disso, o projeto facilita o contato direto com os advogados, promovendo uma comunicação ágil e acessível. Com um design elegante e funcional, o site é uma ferramenta poderosa para conectar profissionais do direito aos seus clientes.
 
 ---
-
 ## Tecnologias Utilizadas
 
 Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 - HTML5
 - CSS3
-- JavaScript
 - [Outras tecnologias ou frameworks, se aplicável]
-
----
-
-## Como Executar o Projeto
-
-Siga os passos abaixo para executar o projeto localmente:
-
-1. Clone este repositório:
-    ```bash
-    git clone https://github.com/seu-usuario/seu-repositorio.git
-    ```
-2. Navegue até o diretório do projeto:
-    ```bash
-    cd projeto-devclub
-    ```
-3. Abra o arquivo `index.html` no navegador.
 
 ---
 
@@ -57,19 +41,8 @@ Siga os passos abaixo para executar o projeto localmente:
 
 ## Imagens do Projeto
 
-![Imagem do Projeto](caminho/para/imagem1.png)
-![Imagem do Projeto](caminho/para/imagem2.png)
+![Imagem do Projeto](./img/SITE%201.PNG)
+![Imagem do Projeto](./img/site%202.PNG)
+![Imagem do Projeto](./img/site%203.PNG)
+![Imagem do Projeto](./img/site%204.PNG)
 
----
-
-## Contribuição
-
-Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
-
----
-
-## Licença
-
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
-
----
