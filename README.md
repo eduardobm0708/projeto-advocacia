@@ -6,11 +6,8 @@ Bem-vindo ao repositório do **Projeto-Advocacia**! Este projeto foi desenvolvid
 
 - [Sobre o Projeto](#sobre-o-projeto)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Como Executar o Projeto](#como-executar-o-projeto)
 - [Funcionalidades](#funcionalidades)
 - [Imagens do Projeto](#imagens-do-projeto)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
 
 ---
 
