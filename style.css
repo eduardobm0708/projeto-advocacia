@@ -1,0 +1,367 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
+}
+
+body {
+  animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.banner-cima {
+  position: static;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 42%;
+  background-position: center;
+  z-index: -1;
+}
+.links a {
+  position: relative;
+  top: -340px;
+  left: 1150px;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+  background-color: white;
+  font-size: large;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  color: #333;
+  margin-right: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.links a:hover {
+  color: #000;
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.556);
+}
+.frases-cima {
+  position: relative;
+  top: -200px;
+  left: 500px;
+  justify-content: flex-end;
+  align-items: center;
+  text-shadow: #5a5a5a 1px 1px 4px;
+}
+.frases-cima p {
+  font-size: 20px;
+  color: #ffffff8a;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.frases-cima h1 {
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.homem {
+  position: relative;
+  top: -10px;
+  left: 1100px;
+}
+
+.sobre-nos {
+  position: relative;
+  top: -300px;
+  left: 400px;
+}
+.sobre-nos h1 {
+  font-size: 40px;
+  color: #000000;
+  font-weight: bold;
+  text-shadow: #5A5A5A 1px 1px 4px;
+}
+.sobre-nos p {
+  font-size: 19px;
+  color: rgb(114, 114, 114);
+  width: 500px;
+  font-family: "source sans pro", sans-serif;
+}
+.divisor {
+  background-color: black;
+  width: 100%;
+  height: 20px;
+}
+.Área-de-atuação {
+  position: relative;
+  top: 60px;
+  left: 600px;
+}
+.Área-de-atuação label {
+  font-size: 40px;
+  color: #000000;
+  font-weight: bold;
+}
+.divisor2 {
+  position: relative;
+  top: 100px;
+  background-color: black;
+  width: 100%;
+  height: 20px;
+}
+
+.divisor3 {
+  position: relative;
+  top: 0px;
+  background-color: black;
+  width: 100%;
+  height: 20px;
+}
+
+.equipe-fundo {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  top: 150px;
+  width: 100%;
+  z-index: -1;
+}
+.equipe-frente {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  top: -100px;
+  gap: 100px;
+}
+.botao-formulario-conosco {
+  color: white;
+  background-color: rgb(44, 44, 44);
+  border-radius: 5px;
+  border: none;
+  width: 200px;
+  height: 40px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 35px;
+  position: relative;
+  z-index: 3;
+}
+.botao-formulario-conosco:hover {
+  background-color: rgba(10, 10, 10, 0.967);
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+.formulario-fale-conosco {
+  background-color: rgb(191, 191, 191);
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 600px;
+  gap: 20px;
+  position: relative;
+  left: 900px;
+  top: 40px;
+  padding: 20px;
+  border-radius: 20px;
+  transition: 0.5s ease-in-out;
+  z-index: 2;
+}
+input {
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding-left: 5px;
+  outline-color: black;
+  position: relative;
+  z-index: 3;
+}
+textarea {
+  font-size: 15px;
+  width: 560px;
+  height: 200px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding-left: 5px;
+  outline-color: black;
+  padding-top: 5px;
+  position: relative;
+  z-index: 3;
+}
+
+.formulario-contato {
+  position: relative;
+  z-index: 1000;
+}
+
+.imagem-equipe-nova {
+  display: none;
+}
+
+.contato-footer h1 {
+  font-size: 24px;
+  font-family: "Alice", sans-serif;
+  color: #1a1a1a;
+  margin-bottom: 15px;
+  position: relative;
+  top: -370px;
+  text-shadow: #787878 1px 1px 4px;
+}
+
+.contato-footer p {
+  font-size: 16px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #5a5a5a;
+  margin: 10.5px 0px;
+  position: relative;
+  left: -15px;
+  top: -367px;
+}
+.contato-footer {
+  position: relative;
+  top: -300px;
+  left: 333px;
+  z-index: 9000;
+}
+.contato-footer img {
+  position: relative;
+  display: inline-block;
+  top: -200px;
+  left: -120px;
+}
+
+@media (max-width: 1024px) {
+  .banner-cima {
+    width: 100%;
+    height: 300px;
+    background-image: url("./img/bannercimareajustado.png");
+    background-size: cover;
+    margin-top: 0px;
+    position: relative;
+  }
+
+  .article-equipe {
+    background-image: url("./img/equipe3.PNG");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+  }
+  .article-equipe img {
+    display: none;
+  }
+
+  .banner-cima img {
+    display: none;
+  }
+
+  .frases-cima {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 90%;
+    z-index: 2;
+  }
+
+  .frases-cima p {
+    font-size: 18px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .frases-cima h1 {
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .links {
+    position: relative;
+    top: 0px;
+  }
+
+  .links a {
+    position: static;
+    display: inline-block;
+    margin: 5px;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    width: 45%;
+    height: 500%;
+  }
+
+  .homem {
+    position: static;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
+  .sobre-nos {
+    position: static;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .sobre-nos p {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .Área-de-atuação {
+    position: static;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .formulario-fale-conosco {
+    position: static;
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    margin-top: 800px;
+  }
+
+  textarea {
+    width: 100%;
+  }
+
+  .equipe-frente img {
+    display: none;
+  }
+
+  .equipe-fundo img {
+    display: none;
+  }
+
+  .imagem-equipe-nova {
+    display: block;
+    text-align: center;
+    position: relative;
+    top: -1400px;
+  }
+  .divisor3 {
+    top: 765px;
+  }
+  .divisor2 {
+    top: 0px;
+  }
+}
